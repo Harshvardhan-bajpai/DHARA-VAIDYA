@@ -73,6 +73,7 @@ The rover is built using:
 ---
 
 ## 🧪 AI Pipeline
+```
 Image Input
 ↓
 Crop Classification
@@ -86,7 +87,7 @@ Sensor Validation
 Multi-Image Aggregation
 ↓
 Final Prediction
-
+```
 
 ---
 
@@ -100,24 +101,37 @@ All trained models required for this project can be downloaded from:
 
 ### 📁 Folder Structure (Important)
 
-After downloading, place the models like this:
-project/
+```
+Dhara-Vaidya/
 │
-├── crop_classifier_trained_model/
-│ ├── resnet18_best.pth
-│ └── ood_stats.json
+├── 📁 crop_classifier_trained_model/
+│   ├── resnet18_best.pth
+│   └── ood_stats.json
 │
-├── rice_trained_model/
-│ └── resnet18_best.pth
+├── 📁 rice_trained_model/
+│   └── resnet18_best.pth
 │
-├── wheat_trained_model/
-│ └── resnet18_best.pth
+├── 📁 wheat_trained_model/
+│   └── resnet18_best.pth
 │
-├── sugarcane_trained_model/
-│ └── resnet18_best.pth
+├── 📁 sugarcane_trained_model/
+│   └── resnet18_best.pth
 │
-├── potato_trained_model/
-│ └── resnet18_best.pth
+├── 📁 potato_trained_model/
+│   └── resnet18_best.pth
+│
+├── 📁 templates/
+│   └── dashboard.html
+│
+├── 📁 uploads/
+│   └── (empty directory for uploaded images)
+│
+├── 📄 app.py
+├── 📄 main.py
+├── 📄 predictor.py
+├── 📄 sensor_values.json
+├── 📄 requirements.txt
+```
 
 ---
 

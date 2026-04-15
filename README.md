@@ -168,8 +168,9 @@ python app.py
 
 ---
 
-### 5. Open Dashboard/Mobile APP
-note:correct the ip of your local server and place it in main.dart file in apk.
+### 5. Open Dashboard/Mobile APP 
+Note: Both devices (pc and mobile) should be on same local network.
+Note: Check the local ip of your pc and place it in main.dart file in apk (default: 192.168.137.1).
 
 
 ---
